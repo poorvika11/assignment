@@ -1,0 +1,135 @@
+/* src/styles/Home.module.css */
+
+/* src/styles/Home.module.css */
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .nav {
+    
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navItem:hover {
+    color: #00FF00;
+  }
+  
+  .authButton {
+    background-color: #00FF00;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .authButton:hover {
+    background-color: #00DD00;
+  }
+  
+  .main {
+    background-color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero {
+    margin-bottom: 2rem;
+  }
+  
+  .cursiveText {
+    font-style: italic;
+  }
+  
+  .feature {
+    margin-bottom: 3rem;
+  }
+  .buttons {
+    margin-top: 10px; /* Add margin to create a gap between buttons */
+  }
+  
+  .buttons a {
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .greenButton {
+    background-color: #00FF00;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .greenButton:hover {
+    background-color: #00DD00;
+  }
+  
+  .footer {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footerImage {
+    width: 100px; /* Set the width of the footer image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .blackBackground {
+    background-color: black;
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add padding for better readability */
+  }
